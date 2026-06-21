@@ -1,73 +1,93 @@
-# React + TypeScript + Vite
+# 🚀 Selva Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built to showcase my skills, projects, internships, and achievements as a B.Tech Information Technology student and aspiring Full Stack Developer.
 
-Currently, two official plugins are available:
+## 📌 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio serves as a central hub for my professional profile, highlighting:
 
-## React Compiler
+* Technical Skills
+* Projects
+* Internship Experience
+* Education
+* Certifications
+* Contact Information
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Tools & Platforms
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* Git & GitHub
+* VS Code
+* Vercel
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
+
+* Responsive design for all devices
+* Modern and clean UI
+* Project showcase section
+* Skills section
+* Internship experience section
+* Contact section
+* Smooth navigation and user experience
+
+## 📂 Projects Highlighted
+
+### Smart Hostel & Mess Management System
+
+A MERN stack application that streamlines hostel and mess operations with student, warden, and admin modules.
+
+## 🎓 Education
+
+**B.Tech Information Technology**
+Sathyabama Institute of Science and Technology
+Expected Graduation: 2027
+
+## 💼 Internship Experience
+
+### Full Stack Developer Intern
+
+Hackwit Technology, Chennai
+
+
+## 📫 Contact
+
+* GitHub: https://github.com/Selva-rc
+* LinkedIn: [www.linkedin.com/in/selvarasan-s-94999b31b](http://www.linkedin.com/in/selvarasan-s-94999b31b)
+* Email: [selva200513@gmail.com](mailto:selva200513@gmail.com)
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Selva-rc/portfolio-update.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Install dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
 ```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+⭐ If you like this portfolio, feel free to star the repository.
