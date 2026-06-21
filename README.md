@@ -18,6 +18,7 @@ This portfolio serves as a central hub for my professional profile, highlighting
 ### Frontend
 
 * React.js
+* TypeScript
 * JavaScript
 * HTML5
 * CSS3
