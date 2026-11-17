@@ -386,6 +386,34 @@ export default function App() {
           <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm5.672 5.234H18.72l-.242 2.735H8.38l.21 2.378H18.06l-.634 7.217-5.42 1.488-5.405-1.488-.352-4.01h2.793l.182 2.072 2.782.756 2.787-.756.3-.3.315-3.568H5.66l-.427-4.832h.599z"/>
         </svg>
       )
+    },
+    {
+      name: 'n8n',
+      color: '#EA4B71',
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+          <defs>
+            <linearGradient id="n8nGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#FF6B9D"/>
+              <stop offset="100%" stopColor="#EA4B71"/>
+            </linearGradient>
+            <linearGradient id="n8nGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#FF9A5C"/>
+              <stop offset="100%" stopColor="#FF6B35"/>
+            </linearGradient>
+          </defs>
+          <circle cx="20" cy="50" r="14" fill="url(#n8nGrad1)"/>
+          <circle cx="80" cy="50" r="14" fill="url(#n8nGrad2)"/>
+          <circle cx="50" cy="50" r="10" fill="#ffffff" opacity="0.9"/>
+          <line x1="34" y1="50" x2="40" y2="50" stroke="#EA4B71" strokeWidth="4" strokeLinecap="round"/>
+          <line x1="60" y1="50" x2="66" y2="50" stroke="#FF6B35" strokeWidth="4" strokeLinecap="round"/>
+          <circle cx="50" cy="50" r="4" fill="#EA4B71"/>
+          <circle cx="50" cy="22" r="8" fill="url(#n8nGrad1)" opacity="0.85"/>
+          <line x1="50" y1="40" x2="50" y2="30" stroke="#EA4B71" strokeWidth="3" strokeLinecap="round"/>
+          <circle cx="50" cy="78" r="8" fill="url(#n8nGrad2)" opacity="0.85"/>
+          <line x1="50" y1="60" x2="50" y2="70" stroke="#FF6B35" strokeWidth="3" strokeLinecap="round"/>
+        </svg>
+      )
     }
   ];
 
@@ -501,7 +529,7 @@ export default function App() {
             </div>
           </div>
           <div className="hero-avatar-container">
-            <img src="/profile.jpg" alt="Selvarasan" className="hero-avatar" style={{ objectFit: 'cover' }} />
+            <img src="/profile.webp" alt="Selvarasan" className="hero-avatar" style={{ objectFit: 'cover' }} />
             {/* Indian Flag absolute positioned overlay */}
             <span className="hero-flag" title="India">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 2" width="100%" height="100%">
